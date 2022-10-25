@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Steganography</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Hiding Data in Images with Steganography</h1>
+    <p>
+        <p>
+            <p>Shown image:</p>
+            <input type="file" id="fileinput-shown" multiple="false" accept="image/*" onchange="uploadShow()">
+            <p>
+                <input type="button" value="Dimensions" onclick="shownImageDimensions()">
+                <span id="shown-dimensions"></span>
+            </p>
+        </p>
+        <canvas id="shown-canva"></canvas>
+    </p>
+
+    <p>
+        <p>
+            <p>Hidden image:</p>
+            <input type="file" id="fileinput-hidden" multiple="false" accept="image/*" onchange="uploadHide()">
+            <p>
+                <input type="button" value="Dimensions" onclick="hiddenImageDimensions()">
+                <span id="hidden-dimensions"></span>
+            </p>
+        </p>
+        <canvas id="hidden-canva"></canvas>
+    </p>
+
+    <p>
+        <p>
+            <p>
+                <p>Chopped image:</p>
+                <input type="button" value="Chop shown image" onclick="chopShownImage()">
+                <p>
+                    <input type="button" value="Dimensions" onclick="croppedImageDimensions()">
+                    <span id="cropped-dimensions"></span>
+                </p>
+            </p>
+        </p>
+        <canvas id="cropped-canva"></canvas>
+    </p>
+
+    <p>
+        <p>
+            <p>Merged image:</p>
+            <input type="button" value="Merge" onclick="combineImage()">
+        </p>
+        <canvas id="combined-canva"></canvas>
+    </p>
+
+    <p>
+        <p>
+            <p>Extracted hidden image:</p>
+            <input type="button" value="Extract" onclick="extractImage ()">
+        </p>
+        <canvas id="extracted-canva"></canvas>
+    </p>
+
+<script src="script.js"></script>
+<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+</body>
+
+</html>
