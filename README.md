@@ -1,4 +1,4 @@
-# Extra challenge: Hiding Data in Images with Steganography
+# Hiding Data in Images with Steganography
 
 This project is an extra challenge proposed in week 4 of the course "Programming Foundations with JavaScript, HTML and CSS" from Coursera (Duke University).
 
