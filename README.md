@@ -2,7 +2,9 @@
 
 This project is an extra challenge proposed in week 4 of the course "Programming Foundations with JavaScript, HTML and CSS" from Coursera (Duke University).
 
-##Practicing Steganography with JavaScript 🔓
+---------------------------
+
+## Practicing Steganography with JavaScript 🔓
 
 Steganography is the practice of hiding data (like secret messages) inside images.
 
@@ -40,3 +42,4 @@ The extracted hidden image is of a lower quality than the original version of th
 | :--: |
 | *The hidden image extracted (but in a lower quality)* |
 
+[Try it!](https://yohanaff.github.io/hidding-data-in-images-with-steganography/)
